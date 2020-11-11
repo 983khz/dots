@@ -1,0 +1,33 @@
+mpd_host = "127.0.0.1"
+mpd_port = 6600
+mpd_music_dir = /mnt/exhd1/music
+
+message_delay_time = 1
+playlist_display_mode = "classic"
+titles_visibility = "no"
+header_visibility = "no"
+header_text_scrolling = "no"
+# playlist_separate_albums = "yes"
+playlist_shorten_total_times = "yes"
+# statusbar_visibility = "no"
+ask_before_clearing_playlists = "no"
+jump_to_now_playing_song_at_start = "yes"
+autocenter_mode = "yes"
+
+
+alternative_header_first_line_format = "$2%t$1"
+alternative_header_second_line_format = "$6%a$1 on $8%b$9"
+song_list_format = "$2%t$1 by $6%a$1 $R $1%b$9"
+#now_playing_prefix = " | "
+header_window_color = "white"
+progressbar_look = "|||"
+#progressbar_look = "───"
+progressbar_color = "black"
+progressbar_elapsed_color = "blue"
+#song_status_format = "%t on "%b" (%y)"
+song_status_format = "$2%t$1 on "%b" (%y)"
+
+# extra colours #
+main_window_color = "blue"
+
+external_editor= = nvim

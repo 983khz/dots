@@ -1,0 +1,16 @@
+# Changes to next/previous tracks
+super + v
+	mpc toggle
+super + {x, c}
+	mpc {prev, next}
+super + z
+	~/Documents/scripts/selectmaim.sh
+
+super + shift + z
+	~/Documents/scripts/fullscreen.sh
+
+super + w
+	vivaldi-stable
+
+super + e 
+	thunar
